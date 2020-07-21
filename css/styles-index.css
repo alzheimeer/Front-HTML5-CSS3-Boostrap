@@ -4,6 +4,15 @@
         src: url("../fonts/Montserrat-Regular.ttf");
 }
 
+h1 {
+
+        font-family: "Montserrat";
+        font-size: 5em;
+        color: white;
+        font-weight: 800;
+        font-style: italic;
+}
+
 .fontNombrePage {
 
         font-family: "Montserrat";
@@ -17,7 +26,7 @@
 
         font-family: "Montserrat";
         font-weight: 800;
-        font-size: 1.5em;
+        font-size: 2em;
         margin-right: 1.5em;
 
 }
@@ -29,4 +38,14 @@
 
 .g2 {
         background-color: rgb(13, 112, 21);
+}
+
+#parallax {
+        background-image: url("../images/paralax.jpg");
+        height: 40vw;
+        margin-bottom: 50px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
