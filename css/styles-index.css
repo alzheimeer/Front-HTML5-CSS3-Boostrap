@@ -1,0 +1,32 @@
+@font-face {
+
+        font-family: "Montserrat";
+        src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+.fontNombrePage {
+
+        font-family: "Montserrat";
+        font-size: 5em;
+        font-weight: 800;
+        font-style: italic;
+        padding-left: 150px;
+}
+
+.fontNavbar {
+
+        font-family: "Montserrat";
+        font-weight: 800;
+        font-size: 1.5em;
+        margin-right: 1.5em;
+
+}
+
+.g1 {
+        background-color: firebrick;
+
+}
+
+.g2 {
+        background-color: rgb(13, 112, 21);
+}
