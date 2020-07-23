@@ -4,10 +4,12 @@
         src: url("../fonts/Montserrat-Regular.ttf");
 }
 
+
+
 h1 {
 
         font-family: "Montserrat";
-        font-size: 5em;
+        font-size: 4vw;
         color: white;
         font-weight: 800;
         font-style: italic;
