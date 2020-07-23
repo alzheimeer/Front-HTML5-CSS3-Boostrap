@@ -4,6 +4,10 @@
         src: url("../fonts/Montserrat-Regular.ttf");
 }
 
+.clogo {
+        background-color: rgb(248, 247, 237);
+}
+
 h1 {
 
         font-family: "Montserrat";
