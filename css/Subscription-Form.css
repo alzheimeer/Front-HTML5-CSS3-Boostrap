@@ -1,16 +1,44 @@
+@font-face {
+        font-family: "IntroRust-BaseLine";
+        src: url("../fonts/IntroRust-BaseLine.otf");
+}
+
+.v-erde {
+
+        background-color: rgb(127, 217, 84);
+        color: white;
+}
+
+.p-urple {
+
+        background-color: rgb(152, 95, 167);
+        color: white;
+}
+
+.b-lue {
+
+        background-color: rgb(73, 139, 201);
+        color: white;
+}
+
 .newsletter-subscribe {
-        color: #313437;
-        background-color: #fff;
+
         padding: 50px 0;
 }
 
 .newsletter-subscribe p {
-        color: #7d8285;
+
         line-height: 1.5;
 }
 
+.text-btn {
+        font-family: "IntroRust-BaseLine";
+        font-size: 1vw;
+}
+
 .newsletter-subscribe h2 {
-        font-size: 24px;
+        font-family: "IntroRust-BaseLine";
+        font-size: 1.5vw;
         font-weight: bold;
         margin-bottom: 25px;
         line-height: 1.5;
@@ -20,9 +48,11 @@
 }
 
 .newsletter-subscribe .intro {
-        font-size: 16px;
+        font-family: "Montserrat";
+        font-size: 1.3vw;
         max-width: 500px;
         margin: 0 auto 25px;
+        line-height: 1.5;
 }
 
 .newsletter-subscribe .intro p {
@@ -34,16 +64,14 @@
 }
 
 .newsletter-subscribe form .form-control {
-        background: #eff1f4;
+        background: #b2b4b6;
         border: none;
-        border-radius: 3px;
-        box-shadow: none;
-        outline: none;
-        color: inherit;
+        border-radius: 100px;
         text-indent: 9px;
+
         height: 45px;
         margin-right: 10px;
-        min-width: 250px;
+        min-width: 280px;
 }
 
 .newsletter-subscribe form .btn {

@@ -1,19 +1,27 @@
 .footer-basic {
   padding: 40px 0;
-  background-color: #ffffff;
-  color: #4b4c4d;
+  background-color: rgb(85, 85, 85);
+  color: rgb(255, 255, 255);
+
+
 }
 
 .footer-basic ul {
+
+  font-family: "Montserrat";
+  font-size: 1.5vw;
   padding: 0;
   list-style: none;
   text-align: center;
-  font-size: 4em;
+  font-weight: 800;
+  font-style: italic;
   line-height: 1.6;
   margin-bottom: 0;
 }
 
 .footer-basic li {
+
+  background-color: inherit;
   padding: 0 10px;
 }
 
@@ -33,7 +41,7 @@
 }
 
 .footer-basic .social>a {
-  font-size: 4em;
+  font-size: 1.5vw;
   width: 1.2em;
   height: 1.2em;
   line-height: 40px;
@@ -44,16 +52,21 @@
   margin: 0 0.5em;
   color: inherit;
   opacity: 0.75;
+
 }
 
 .footer-basic .social>a:hover {
+
   opacity: 0.9;
 }
 
 .footer-basic .copyright {
+
   margin-top: 15px;
+  font-weight: 800;
+  font-style: italic;
   text-align: center;
-  font-size: 2em;
+  font-size: 1vw;
   color: #aaa;
   margin-bottom: 0;
 }
