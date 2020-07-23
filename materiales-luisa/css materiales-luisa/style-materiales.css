@@ -1,0 +1,99 @@
+/* ------------------ Estilos Generales ------------------ */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* --------- FUENTE --------- */
+@font-face {
+    font-family: "montserrat-medium";
+    src: url(../fuentes/montserrat/Montserrat-Medium.ttf);   
+}
+@font-face{
+    font-family: "cabin-medium";
+    src:url(../fuentes/Cabin\ Sketch/CabinSketch-Regular.ttf) ;
+}
+@font-face{
+    font-family: "monserrat-bold";
+    src: url(../fuentes/montserrat/Montserrat-Bold.ttf);
+}
+
+
+/* --------- NAVBAR--------- */
+.titulo-nav{
+    font-family: "monserrat-bold";
+    color:#cab350;
+}
+.nav-item{
+    font-family:"montserrat-medium";
+    color: grey;
+}
+.btn{
+    background-color: #ffe57f;
+}
+.navbar{
+    background-color: #75ccb9;
+
+}
+
+/* --------- TITULOS --------- */
+
+.titulo-mate1{
+   font-family:"cabin-medium";
+   color:grey;
+   font-size: 2em;
+   padding: 0,5em;
+
+}
+
+.titulo-mate2{
+    font-family:"montserrat-medium" ;
+    color:grey;
+    font-size: 2,5 em;
+    padding: 0,5em;
+}
+
+.titulo-0{
+    font-family:"montserrat-medium" ;
+    color:#75ccb9;
+
+    text-align: center;
+    font-size: 3 em;
+    
+
+}
+/* --------- TEXTO--------- */
+.mate-text{
+    font-family: "montserrat-medium";
+    color: grey;
+    font-size: 0,3em;
+    padding: 1em;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 0,5 em;
+}
+
+
+
+/* --------- CONTENEDORES --------- */
+.mate-primero{
+    background-color:#ffffff;
+    padding: 1em;
+    
+}
+.mate-segundo{
+    background-color:#dbffff;
+    padding: 1em;
+}
+/* --------- IMAGENES --------- */
+
+    
+   
+
+/* --------- FOOTER--------- */
+footer{
+    background-color:#75ccb9;
+}
