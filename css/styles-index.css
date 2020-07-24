@@ -44,7 +44,7 @@ h1 {
 
 #parallax {
         background-image: url("../images/paralax.jpg");
-        height: 40vw;
+        height: 50vw;
         margin-bottom: 50px;
         background-attachment: fixed;
         background-position: center;
