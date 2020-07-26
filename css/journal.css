@@ -38,6 +38,13 @@
   font-weight: 500;
   line-height: 1;
   letter-spacing: -.05rem;
+  padding-top: 5em;
+  padd
+}
+.presenta-imagen{
+  height: 495px;
+  width: 495px;
+  border-radius: 8px;
 }
 .page-footer{
     background-color: violet;
