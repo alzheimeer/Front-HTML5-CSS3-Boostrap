@@ -12,15 +12,12 @@
 
 .col-md-12 h1 {
         font-family: "IntroRust-BaseLine";
-
         font-style: italic;
-        font-size: 4vw;
-        font-weight: 800;
+        font-weight: 1200;
         color: white;
 }
 
 .fontNombrePage {
-
         font-family: "Montserrat";
         font-size: 5em;
         font-weight: 800;
@@ -29,17 +26,14 @@
 }
 
 .fontNavbar {
-
         font-family: "Montserrat";
         font-weight: 800;
         font-size: 2em;
         margin-right: 1.5em;
-
 }
 
 .g1 {
         background-color: firebrick;
-
 }
 
 .g2 {
