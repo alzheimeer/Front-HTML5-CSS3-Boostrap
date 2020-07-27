@@ -19,7 +19,6 @@
 
 .fontNombrePage {
         font-family: "Montserrat";
-        font-size: 5em;
         font-weight: 800;
         font-style: italic;
         padding-left: 150px;
@@ -28,7 +27,6 @@
 .fontNavbar {
         font-family: "Montserrat";
         font-weight: 800;
-        font-size: 2em;
         margin-right: 1.5em;
 }
 
@@ -48,4 +46,67 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+}
+
+/* Móviles en vertical */
+@media (max-width: 479px) {
+        .col-md-12 h1 {
+                font-size: 5em;
+        }
+
+        .fontNombrePage {
+                font-size: 5em;
+        }
+
+        .fontNavbar {
+                font-size: 2em;
+        }
+}
+
+
+/* Móviles en vertical */
+@media (max-width: 480px) {
+        .col-md-12 h1 {
+                font-size: 5em;
+        }
+
+        .fontNombrePage {
+                font-size: 5em;
+        }
+
+        .fontNavbar {
+                font-size: 2em;
+        }
+}
+
+
+/* Móviles en horizontal o tablets en vertical */
+@media (max-width: 767px) {
+        .col-md-12 h1 {
+                font-size: 50px;
+        }
+
+        .fontNombrePage {
+                font-size: 5em;
+        }
+
+        .fontNavbar {
+                font-size: 2em;
+        }
+}
+
+
+/* Tablets en horizonal y escritorios normales */
+@media (min-width: 768px) {
+        .col-md-12 h1 {
+                font-size: 100px;
+        }
+
+        .fontNombrePage {
+                font-size: 5em;
+        }
+
+        .fontNavbar {
+                font-size: 2em;
+        }
 }
