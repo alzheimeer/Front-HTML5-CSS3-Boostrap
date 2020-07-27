@@ -26,7 +26,7 @@ body {
 .titulo-mate1{
     font-family:"cabin-medium";
     color:grey;
-    font-size: 2em;
+    font-size: 4em;
     padding: 0,5em;
  
 }
@@ -39,19 +39,28 @@ body {
 }
  
 .titulo-0{
-     font-family:"montserrat-medium" ;
-     color:#75ccb9;
+     font-family:"montserrat-bold" ;
+     background-color: #a7ffeb;
  
      text-align: center;
-     font-size: 3 em;
+     padding-top: 2em;
+     padding-bottom: 1em;
+    
 }
+
+.titulo-pri{
+    font-size: 3em;
+    color: gray;
+    letter-spacing: 20px;
+}
+
 
 
 /* --------- TEXTO--------- */
 .mate-text{
     font-family: "montserrat-medium";
     color: grey;
-    font-size: 0,3em;
+    font-size: 0,1em;
     padding: 1em;
     align-content: center;
     flex-direction: column;
@@ -62,24 +71,27 @@ body {
 
 /* --------- CONTENEDORES --------- */
 .mate-primero{
-    background-color:#ffffb0;
+    background-color:#dbffff ;
     padding: 1em;
     
 }
 .mate-segundo{
-    background-color:#dbffff;
+    background-color:#ffffff;
     padding: 1em;
 }
-/* --------- IMAGENES --------- */
+/* --------- Navbar --------- */
+.navbar-color{
+    background-color:  #75ccb9;
 
+}
     
    
 
 /* --------- FOOTER--------- */
 .footer-basic {
     padding: 40px 0;
-    background-color: rgb(85, 85, 85);
-    color: rgb(255, 255, 255);
+    background-color:#75ccb9;
+    color:#494949;
   
   
 }
@@ -126,7 +138,7 @@ body {
     display: inline-block;
     text-align: center;
     border-radius: 50%;
-    border: 1px solid #ccc;
+    border: 1px solid #ffe57f;
     margin: 0 0.5em;
     color: inherit;
     opacity: 0.75;
@@ -145,6 +157,6 @@ body {
     font-style: italic;
     text-align: center;
     font-size: 1vw;
-    color: #aaa;
+    color: #494949;
     margin-bottom: 0;
 }
