@@ -1,9 +1,9 @@
-/*nav.navbar{
+nav.navbar{
 background-color: #a7ffeb;
 }
-nav.navbar ul.nav li{
+nav.navbar .navbar-nav .nav-link{
 color: black;
-}*/
+}
 .header {
   background-size: cover;
   min-height: 100vh;
@@ -33,7 +33,7 @@ color: black;
 .noticias h2 {
   font-weight: 400;
 }
-.noticias .col-lg-4 p {
+.noticias .col-md-5 p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
@@ -44,7 +44,6 @@ color: black;
   font-weight: 500;
   line-height: 1;
   letter-spacing: -.05rem;
-  padding-top: 5em;
 }
 .presenta-imagen{
   height: 495px;
@@ -53,7 +52,6 @@ color: black;
 }
 @media (min-width: 768px) {
   .carousel-caption p {
-    margin-bottom: 1.25rem;
     font-size: 1.25rem;
     line-height: 1.4;
   }
