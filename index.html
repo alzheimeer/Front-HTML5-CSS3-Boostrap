@@ -30,23 +30,34 @@
 
 <body>
 
+  <!-- Primera FILA-->
+  <div class="row ">
 
-  <div class="row grow w-100">
+    <!-- Una columna de 12-->
     <div class="col-12 py-3">
-      <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark navbar--apple">
-        <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#menu"><span
-              class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"><i
-                class="la la-navicon"></i></span></button>
-          <div class="collapse navbar-collapse" id="menu">
-            <ul class="nav navbar-nav flex-grow-1 justify-content-between">
+      <!-- NAVBAR-->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container">
 
-              <li class="nav-item" role="presentation"><a class="nav-link" href="#">CROCHET DREAMM</a></li>
+          <button data-toggle="collapse" class="navbar-toggler" type="button" data-target="#menu"><span
+              class="sr-only">Toggle
+              navigation</span><span class="navbar-toggler-icon"></span></button>
+
+          <div class="collapse navbar-collapse" id="menu">
+            <a class="navbar-logo " href="#">
+              <img src="../images/tejer.png" width="40" height="40" alt="logo">
+            </a>
+            <a class="nav-link titlenav" href="#">CROCHET DREAMM</a>
+            <ul class="nav navbar-nav alinpage">
+
+
 
               <li class="nav-item" role="presentation"><a class="nav-link" href="./pages/materiales.html">MATERIALES</a>
               </li>
               <li class="nav-item" role="presentation"><a class="nav-link" href="./pages/journal.html">PRODUCTOS</a>
               </li>
-              <li class="nav-item" role="presentation"><a class="nav-link" href="./pages/wholesale.html">MAYORISTAS</a>
+              <li class="nav-item align-self-end" role="presentation"><a class="nav-link"
+                  href="./pages/wholesale.html">MAYORISTAS</a>
               </li>
               <li class="nav-item" role="presentation"><a class="nav-link" href="#" id="modal-btn" data-toggle="modal"
                   data-target="#signmodal">INGRESAR</a></li>
@@ -58,23 +69,25 @@
           </div>
         </div>
       </nav>
-
     </div>
+  </div>
 
+  <!-- Primera FILA-->
+  <div class="row">
 
-
-
-
+    <!-- Paralaxx 1-->
+    <!-- Una columna de 12-->
     <div class="col-12 bg-primary" id="parallax">
       <div class="row h-100">
         <div class="col-md-12 align-self-center">
-          <h1 class="text-center">Bienvenido</h1>
+          <p class="text-center titulo-parallax">Bienvenido</p>
         </div>
       </div>
     </div>
+  </div>
 
+  <div class="row">
     <div class="col-12 ">
-
       <div class="newsletter-subscribe">
         <div class="container">
           <div class="intro">
@@ -92,12 +105,11 @@
           </form>
         </div>
       </div>
-
-
-
-
     </div>
+  </div>
 
+
+  <div class="row">
     <div class="col-12   v-erde">
 
       <div class="newsletter-subscribe ">
@@ -112,14 +124,17 @@
           <button type="button" class="btn-lg  btn-secondary text-btn">Leer Mas</button>
         </div>
       </div>
-
     </div>
-    <div class="col-12">
-      <img class="img-fluid" width="100%" src=" ./images/banner.jpg" alt="">
-    </div>
+  </div>
+
+
+  <!-- Paralaxx 2-->
+
+  <div class="col-12 img-fluid" id="imgbanner"> </div>
 
 
 
+  <div class="row">
     <div class="col-6  p-urple">
       <div class="newsletter-subscribe">
         <div class="container text-center">
@@ -151,6 +166,12 @@
         </div>
       </div>
     </div>
+  </div>
+
+
+
+
+  <div class="row">
     <div class="col-6">
       <div class="newsletter-subscribe">
         <div class="container text-center">
@@ -169,29 +190,29 @@
 
     </div>
     <div class="col-6 ">
-      <img class="img-fluid" width="80%" src="./images/osostraspa.png" alt="">
+      <img class="img-fluid imgbanner" src="./images/osostraspa.png" alt="">
     </div>
-
   </div>
 
 
-
-  <div class="footer-basic">
-    <footer>
-      <div class="social"><a href="#">
-          <i class="icon ion-social-instagram"></i></a><a href="#">
-          <i class="icon ion-social-snapchat"></i></a><a href="#">
-          <i class="icon ion-social-twitter"></i></a><a href="#">
-          <i class="icon ion-social-facebook"></i></a></div>
-      <ul class="list-inline ">
-        <li class="list-inline-item"><a href="#">Inicio</a></li>
-        <li class="list-inline-item"><a href="#">Productos</a></li>
-        <li class="list-inline-item"><a href="#">Novedades</a></li>
-        <li class="list-inline-item"><a href="#">Contactanos</a></li>
-        <li class="list-inline-item"><a href="#">Faqs</a></li>
-      </ul>
-      <p class="copyright">Crochet Dreamm © 2020</p>
-    </footer>
+  <div class="row">
+    <div class="col-12 footer-basic">
+      <footer>
+        <div class="social"><a href="#">
+            <i class="icon ion-social-instagram"></i></a><a href="#">
+            <i class="icon ion-social-snapchat"></i></a><a href="#">
+            <i class="icon ion-social-twitter"></i></a><a href="#">
+            <i class="icon ion-social-facebook"></i></a></div>
+        <ul class="list-inline ">
+          <li class="list-inline-item"><a href="#">Inicio</a></li>
+          <li class="list-inline-item"><a href="#">Productos</a></li>
+          <li class="list-inline-item"><a href="#">Novedades</a></li>
+          <li class="list-inline-item"><a href="#">Contactanos</a></li>
+          <li class="list-inline-item"><a href="#">Faqs</a></li>
+        </ul>
+        <p class="copyright">Crochet Dreamm © 2020</p>
+      </footer>
+    </div>
   </div>
 
 

@@ -10,11 +10,11 @@
 }
 
 
-.col-md-12 h1 {
+.titulo-parallax {
         font-family: "IntroRust-BaseLine";
         font-style: italic;
-        font-weight: 1200;
         color: white;
+        font-size: 20px;
 }
 
 .fontNombrePage {
@@ -48,10 +48,22 @@
         background-size: cover;
 }
 
+
+#imgbanner {
+        background-image: url("../images/hero.jpg");
+        height: 50vw;
+        margin-bottom: 50px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-        .col-md-12 h1 {
-                font-size: 5em;
+        .titulo-parallax {
+                font-size: 20px;
         }
 
         .fontNombrePage {
@@ -66,9 +78,11 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-        .col-md-12 h1 {
-                font-size: 5em;
+
+        .titulo-parallax {
+                font-size: 40px;
         }
+
 
         .fontNombrePage {
                 font-size: 5em;
@@ -82,9 +96,11 @@
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-        .col-md-12 h1 {
+
+        .titulo-parallax {
                 font-size: 50px;
         }
+
 
         .fontNombrePage {
                 font-size: 5em;
@@ -98,8 +114,9 @@
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
-        .col-md-12 h1 {
-                font-size: 100px;
+
+        .titulo-parallax {
+                font-size: 60px;
         }
 
         .fontNombrePage {
@@ -114,9 +131,28 @@
 
 /* X-Large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
-        .col-md-12 h1 {
+
+        .titulo-parallax {
+                font-size: 70px;
+        }
+
+
+
+        .fontNombrePage {
+                font-size: 5em;
+        }
+
+        .fontNavbar {
+                font-size: 2em;
+        }
+}
+
+@media (min-width: 1400px) {
+
+        .titulo-parallax {
                 font-size: 100px;
         }
+
 
         .fontNombrePage {
                 font-size: 5em;

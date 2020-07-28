@@ -46,6 +46,15 @@
         z-index: -1;
 }
 
+
+.alinpage {
+        margin-left: auto;
+}
+
+.titlenav {
+        color: white;
+}
+
 @media (max-width: 576px) {
         .navbar--apple #menu {
                 padding-left: 40px;
