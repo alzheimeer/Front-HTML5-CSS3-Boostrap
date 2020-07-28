@@ -1,3 +1,9 @@
+nav.navbar{
+background-color: #a7ffeb;
+}
+nav.navbar .navbar-nav .nav-link{
+color: black;
+}
 .navbar--apple {
         background-color: initial !important;
 }
