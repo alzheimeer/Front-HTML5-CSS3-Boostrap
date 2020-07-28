@@ -1,0 +1,8 @@
+ @media (min-width: 576px) {
+     .parallax {
+         /* Set a specific height */
+
+         height: 240px;
+
+     }
+ }
