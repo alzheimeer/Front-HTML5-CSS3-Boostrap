@@ -1,19 +1,17 @@
 @font-face {
 
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat-Regular.ttf");
+        font-family: "Montserrat";
+        src: url("../fonts/Montserrat-Regular.ttf");
 }
-
-.carousel-inner {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  opacity: 1;
-  visibility: inherit;
-  z-index: 20;
-  padding-bottom: 5em;
+.carousel-inner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 1;
+    visibility: inherit;
+    z-index: 20;
+    padding-bottom: 5em;
 }
-
 .carousel-caption {
   font-family: "Montserrat";
   font-weight: 800;
@@ -21,61 +19,50 @@
   bottom: 3rem;
   z-index: 10;
 }
-
-.carousel-caption>h1 {
-  font-size: 60px;
-  letter-spacing: 2px;
-  opacity: 1;
+.carousel-caption > h1{
+font-size: 60px;
+letter-spacing: 2px;
+opacity: 1;
 }
-
-.carousel-caption>p {
+.carousel-caption > p{
   font-size: 18px;
   opacity: 1;
 }
-
 .carousel-item {
   height: 32rem;
   background-color: #777;
 }
-
-.carousel-item>img {
+.carousel-item > img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
   height: 32rem;
 }
-
 .noticias .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
-
 .noticias h2 {
   font-weight: 400;
 }
-
 .noticias .col-md-5 p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
-
 .division-noticias {
   margin: 5rem 0;
 }
-
 .noticia-titulo {
   font-weight: 500;
   line-height: 1;
   letter-spacing: -.05rem;
 }
-
-.presenta-imagen {
+.presenta-imagen{
   height: 495px;
   width: 495px;
   border-radius: 8px;
 }
-
 @media (min-width: 768px) {
   .carousel-caption p {
     font-size: 1.25rem;
@@ -88,7 +75,7 @@
 }
 
 @media (min-width: 992px) {
-  .featurette-heading {
+  .featurette-heading{
     margin-top: 7rem;
   }
 }

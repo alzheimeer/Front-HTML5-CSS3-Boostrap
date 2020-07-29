@@ -1,5 +1,5 @@
 .jumbotron {
-  background-position: center;
+background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
@@ -9,52 +9,45 @@
   padding-top: 30rem;
   padding-bottom: 20rem;
 }
-
 .division {
   margin: 5rem 0;
 }
-
-.patron {
+.patron{
   width: 100%;
-  height: auto;
-  display: block;
-  position: relative;
-  z-index: 2;
-  border-radius: 10px;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 2;
+    border-radius: 10px;
 }
-
-p {
+ p
+ {
   font-size: 18px;
   opacity: 1;
 }
-
-.list-group-item {
+.list-group-item{
   font-size: 18px;
 }
-
 #services .card {
-  width: 100% !important;
-  margin-bottom: 30px;
-  border-radius: 0px;
-  border: none;
-  transition: 0.4s;
+    width: 100% !important;
+    margin-bottom: 30px;
+    border-radius: 0px;
+    border: none;
+    transition: 0.4s;
 }
-
-.card-img-top {
+.card-img-top{
   width: 100%;
 }
-
 #informacion .cta-btn {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 26px;
-  border-radius: 3px;
-  transition: 0.5s;
-  margin: 10px;
-  border: 3px solid #a7ffeb;
-  ;
-  color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 26px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 3px solid #a7ffeb;;
+    color: black;
 }
