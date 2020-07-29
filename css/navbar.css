@@ -1,10 +1,32 @@
+.alinpage {
+        margin-left: auto;
+}
+
+.titlenav {
+        font-family: "Montserrat";
+        color: rgb(0, 0, 0);
+
+        font-weight: 900;
+}
+
+nav.navbar {
+        background-color: #a7ffeb;
+
+}
+
+nav.navbar .navbar-nav .nav-link {
+        color: rgb(0, 0, 0);
+        font-family: "Montserrat";
+        font-weight: 600;
+}
+
 .navbar--apple {
         background-color: initial !important;
 }
 
 
 .navbar--apple .nav-link {
-        color: #ffffff !important;
+        color: #2c0bbd !important;
         font-size: 13px;
 }
 
@@ -30,7 +52,7 @@
 
 .navbar--opened .navbar--apple::before {
         height: 100%;
-        background: rgba(0, 0, 0, 0.93);
+        color: rgb(0, 0, 0);
 }
 
 .navbar--apple::before {
@@ -46,6 +68,8 @@
         z-index: -1;
 }
 
+
+
 @media (max-width: 576px) {
         .navbar--apple #menu {
                 padding-left: 40px;
@@ -54,7 +78,8 @@
 
         .navbar--apple #menu li a {
                 font-size: 17px;
-                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                border-bottom: 1px solid rgb(0, 0, 0);
+
         }
 }
 
