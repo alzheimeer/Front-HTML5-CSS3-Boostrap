@@ -7,38 +7,159 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/second.css">
+    <link rel="stylesheet" href="../css/footer-1.css">
+    <link rel="stylesheet" href="../fonts/ionicons.min.css">
+    <link rel="stylesheet" href="../fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="../fonts/line-awesome.min.css">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a class="navbar-logo" href="#">
-                <img src="../images/tejer.png" width="40" height="40" alt="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toogle navigation">
-                <span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="menu">
-                <ul class="navbar-nav ml-auto">
+    <!-- Primera FILA-->
+    <div class="row ">
 
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">CROCHET
-                            DREAMM</a></li>
+        <!-- Una columna de 12-->
+        <div class="col-12 py-3">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+                <div class="container">
+                    <button data-toggle="collapse" class="navbar-toggler" type="button" data-target="#menu"><span
+                            class="sr-only">Toggle
+                            navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="menu">
+                        <a class="navbar-logo" href="#">
+                            <img src="../images/tejer.png" width="40" height="40" alt="logo">
+                        </a>
+                        <a class="nav-link titlenav" href="#">CROCHET DREAMM</a>
+                        <ul class="nav navbar-nav alinpage align-self-end">
 
-                    <li class="nav-item-active" role="presentation"><a class="nav-link" href="#">INICIO <span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">PRODUCTOS</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">NOVEDADES</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">CONTACTANOS</a>
-                    </li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">FAQS</a>
-                    </li>
-                </ul>
+                            <li class="nav-item" role="presentation"><a class="nav-link"
+                                    href="./pages/materiales.html">MATERIALES</a>
+                            </li>
+
+                            <li class="nav-item" role="presentation"><a class="nav-link"
+                                    href="./pages/journal.html">PRODUCTOS</a>
+                            </li>
+                            <li class="nav-item" role="presentation"><a class="nav-link"
+                                    href="./pages/wholesale.html">MAYORISTAS</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <!-- BOTON QUE LLAMA EL MODAL QUE ESTA AL FINAL DEL HTML -->
+                                <a class="nav-link" href="#" id="modal-btn" data-toggle="modal"
+                                    data-target="#signmodal">INGRESAR</a>
+                            </li>
+                            <!-- ICONO BUSCAR-->
+                            <li class="nav-item d-none d-xs-block d-md-block" role="presentation">
+                                <a class="nav-link" href="#"><i class="icon ion-ios-search-strong"></i></a>
+                            </li>
+                            <!-- ICONO COMPRAS-->
+                            <li class="nav-item d-none d-xs-block d-md-block" role="presentation">
+                                <a class="nav-link" href="#"><i class="fa fa-shopping-bag"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+    <main>
+        <div class="jumbotron jumbotron bg-cover text-white"
+            style="background-image:url(../images/lalala_books_dolls_06_Liv.jpg);">
+            <h1 class="display-3 text-left pl-2"><strong>LIBROS</strong></h1>
+        </div>
+        <section id="about" class="wow fadeInUp pt-4 text-center">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Ser pequeños no es una limitación. <br>
+                        Nosotros creamos, diseñamos y publicamos nuestros libros.</h2>
+                    <p>Puede que las cosas se nos hagan un poquito más difíciles, pero también podemos hacer cosas
+                        grandes.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 about-img pt-4">
+                        <img src="../images/kateryna-t-7kYoSPsruIw-unsplash.jpg" width="500" height="800" alt="">
+                    </div>
+
+                    <div class="col-lg-6 content pt-4 align-self-center">
+                        <p>Los libros es una prolongación de lo que hacemos aquí, es como un brazo que nos ayuda a
+                            llegar a más personas y nos
+                            encanta poder llegar cada vez más lejos. Nunca imaginamos lo que había del otro lado, la
+                            gente tan maja que nos
+                            encontraríamos, que se emocionan con lo que hacemos y hasta te echa una mano para que puedas
+                            publicar tu libro.
+                        </p>
+                        <p>No cambiamos por nada la experiencia de la autopublicación, ha sido una gran escuela, y
+                            todavía nos falta mucho por
+                            aprender. Nos encanta la idea de que todas las disciplinas que practicamos, diseños, el
+                            ganchillo, la fotografía, la
+                            costura, etc. se fusionan en el producto final del libro de patrones.</p>
+                        <p>El olor de una publicación recién impresa es una maravilla, por eso seguiremos plasmando
+                            nuestros patrones en libros de
+                            papel, como los de toda la vida y así podemos formar parte de vuestras estanterías.</p>
+
+                    </div>
+                </div>
+
             </div>
-        </nav>
-    </header>
-    <main></main>
+        </section>
+        <hr class="division">
+        <section id="services" class="sec-padding">
+            <div class="container">
+                <div class="section-header text-center pb-4">
+                    <h2>Nuestros Libros</h2>
+                    <p>Puede que las cosas se nos hagan un poquito más difíciles, pero también podemos hacer cosas
+                        grandes. Uno de nuestros
+                        logros en CROCHET DREAMM es el habernos convertido poco a poco en auto editores.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card wow fadeInLeft" style="width: 18rem;">
+                            <img src="../images/lalalabooks_munecas_amigurumi-cover_02-900x900.jpg" alt=""
+                                class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">DOLLS</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card wow fadeInLeft" style="width: 18rem;">
+                            <img src="../images/lalalabooks_amigurumixxl-cover_01-2-900x900.jpg" alt=""
+                                class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">XXL</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card wow fadeInLeft" style="width: 18rem;">
+                            <img src="../images/mi-mascota-thumbnail-02-900x900.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">MASCOTA</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="division">
+        <section id="informacion" class="wow fadeInUp sec-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 text-center text-lg-left">
+                        <h3 class="cta-title">Quieres saber más?</h3>
+                        <p class="cta-text">Puedes escribirnos cualquier duda o comentario, te responderemos encantados.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 cta-btn-container text-center">
+                        <a class="cta-btn align-middle" href="#contact">Contactanos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <hr class="division">
+    </main>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
