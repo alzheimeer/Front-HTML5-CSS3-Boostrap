@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="./css/styles-index.css">
   <link rel="stylesheet" href="./css/navbar.css">
   <link rel="stylesheet" href="./css/footer-1.css">
+  <link rel="stylesheet" href="./css/animacionletras.css">
 
   <link rel="stylesheet" href="./fonts/ionicons.min.css">
   <link rel="stylesheet" href="./fonts/font-awesome.min.css">
@@ -35,45 +36,48 @@
 
     <!-- Una columna de 12-->
     <div class="col-12 py-3">
-      <!-- NAVBAR-->
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <div class="container">
-
-          <button data-toggle="collapse" class="navbar-toggler" type="button" data-target="#menu"><span
+          <button data-toggle="collapse" class="navbar-toggler bg-secondary" type="button" data-target="#menu"><span
               class="sr-only">Toggle
               navigation</span><span class="navbar-toggler-icon"></span></button>
-
           <div class="collapse navbar-collapse" id="menu">
-            <a class="navbar-logo " href="#">
+            <a class="navbar-logo" href="#">
               <img src="../images/tejer.png" width="40" height="40" alt="logo">
             </a>
-            <a class="nav-link titlenav" href="#">CROCHET DREAMM</a>
+            <h5> <a class="nav-link titlenav" href="#">CROCHET DREAMM</a></h5>
+            <ul class="nav navbar-nav alinpage align-self-end">
 
+              <li class="nav-item" role="presentation"><a class="nav-link" href="./pages/materiales.html">MATERIALES</a>
+              </li>
 
-            <!-- LISTA NO ORDENADA HORIZONTAL -->
-            <ul class="nav navbar-nav alinpage">
-              <li class="nav-item" role="presentation">
-                <a class="nav-link" href="./pages/materiales.html">MATERIALES</a></li>
-              <li class="nav-item" role="presentation">
-                <a class="nav-link" href="./pages/journal.html">PRODUCTOS</a></li>
-              <li class="nav-item align-self-end" role="presentation">
-                <a class="nav-link" href="./pages/wholesale.html">MAYORISTAS</a></li>
+              <li class="nav-item" role="presentation"><a class="nav-link" href="./pages/journal.html">PRODUCTOS</a>
+              </li>
+              <li class="nav-item" role="presentation"><a class="nav-link" href="./pages/wholesale.html">MAYORISTAS</a>
+              </li>
               <li class="nav-item" role="presentation">
                 <!-- BOTON QUE LLAMA EL MODAL QUE ESTA AL FINAL DEL HTML -->
-                <a class="nav-link" href="#" id="modal-btn" data-toggle="modal" data-target="#signmodal">INGRESAR</a>
+                <a class="nav-link titlenav" href="#" id="modal-btn" data-toggle="modal"
+                  data-target="#signmodal">INGRESAR</a>
               </li>
               <!-- ICONO BUSCAR-->
               <li class="nav-item d-none d-xs-block d-md-block" role="presentation">
-                <a class="nav-link" href="#"><i class="icon ion-ios-search-strong"></i></a></li>
+                <a class="nav-link" href="#"><i class="icon ion-ios-search-strong"></i></a>
+              </li>
               <!-- ICONO COMPRAS-->
               <li class="nav-item d-none d-xs-block d-md-block" role="presentation">
                 <a class="nav-link" href="#"><i class="fa fa-shopping-bag"></i></a></li>
             </ul>
           </div>
         </div>
+
       </nav>
     </div>
   </div>
+
+
+
+
 
   <!-- FILA 2-->
   <div class="row">
@@ -83,7 +87,9 @@
     <div class="col-12 bg-primary" id="parallax">
       <div class="row h-100">
         <div class="col-md-12 align-self-center">
-          <p class="text-center titulo-parallax">Bienvenido</p>
+
+          <p id="weirdtext" class="text-center titulo-parallax">BIENVENIDO</p>
+
         </div>
       </div>
     </div>
@@ -135,7 +141,15 @@
   <!-- FILA 5-->
   <!-- Una columna de 12-->
   <!-- Paralaxx 2-->
-  <div class="col-12 img-fluid" id="imgbanner"> </div>
+  <div class="col-12 img-fluid" id="imgbanner">
+    <div class="row h-100">
+      <div class="col-md-12 align-self-center">
+
+        <p class="text-center titulo-parallax">EL REGALO PERFECTO</p>
+
+      </div>
+    </div>
+  </div>
 
 
   <!-- FILA 6-->
@@ -218,11 +232,11 @@
             <i class="icon ion-social-facebook"></i></a></div>
         <!-- LISTA NO ORDENADA HORIZONTAL -->
         <ul class="list-inline ">
-          <li class="list-inline-item"><a href="#">Inicio</a></li>
+          <li class="list-inline-item"><a href="#">Materiales</a></li>
           <li class="list-inline-item"><a href="#">Productos</a></li>
           <li class="list-inline-item"><a href="#">Novedades</a></li>
           <li class="list-inline-item"><a href="#">Contactanos</a></li>
-          <li class="list-inline-item"><a href="#">Faqs</a></li>
+          <li class="list-inline-item"><a href="#">Ingresar</a></li>
         </ul>
         <p class="copyright">Crochet Dreamm © 2020</p>
       </footer>
@@ -311,7 +325,7 @@
   <script src="./js/jquery.min.js"></script>
 
 
-
+  <script src="./js/animacionletras.js"></script>
   <script src="./js/modal.js"></script>
 
 </body>
