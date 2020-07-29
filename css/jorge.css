@@ -33,7 +33,7 @@ body {
 }
 
 .card-subtitle {
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 
@@ -101,7 +101,7 @@ body {
 .content-details {
     position: absolute;
     text-align: center;
-    font-size: 2vw;
+    font-size: 1vw;
     padding-left: 1em;
     padding-right: 1em;
     width: 100%;
