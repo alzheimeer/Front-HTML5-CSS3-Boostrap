@@ -36,9 +36,9 @@
 
 .modal button {
   border-radius: 20px;
-  border: 1px solid #FF4B2B;
+  border: 1px solid #4b4a4a;
   background-color: rgb(73, 139, 201);
-  color: #FFFFFF;
+  color: #585858;
   font-size: 12px;
   font-weight: bold;
   padding: 12px 45px;
@@ -61,7 +61,7 @@ button:focus {
 }
 
 .modal form {
-  background-color: #FFFFFF;
+  background-color: #a7ffeb;
   display: flex;
   align-items: center;
   justify-content: center;
