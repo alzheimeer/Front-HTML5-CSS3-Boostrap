@@ -65,11 +65,27 @@ main{
 
 .text-1{
     font-family: "monserrat-medium";
-    font-size: 0,5em;
+    font-size: 20px;
     text-align: center;
     color: grey;
 
 }
+.text-2{
+    font-family: "monserrat-medium";
+    font-size: 18px;
+    text-align: center;
+    color:#dbffff;
+
+}
+
+.text-3{
+    font-family: "monserrat-medium";
+    font-size: 18px;
+    text-align: center;
+    color:grey;
+
+}
+
 
 /* --------- FORMULARIO --------- */
 .c-formulario{
@@ -91,24 +107,24 @@ main{
 
 /*-------- iconos-----*/
 .icono-grande{
-    color:yellow;
     width:7em ;
     margin-left: 8em;
 
 }
 .icono-small{
-    color: gray;
-    width:1em ;
-    margin-left: 1em;
+    color:#dbffff;
+    padding-right: 2em;  
+}
+
+.icono-small:hover{
+    color: #ffffb0;
+    font-size: 24px;
+}
+.lista-media{
     text-align: center;
 }
 
-.icono-small-1{
-        color: gray;
-        width:1em ;
-        margin-left: 8em;
-        text-align: center;
-}
+
 /* --------- FOOTER--------- */
 .footer-basic {
     padding: 40px 0;
