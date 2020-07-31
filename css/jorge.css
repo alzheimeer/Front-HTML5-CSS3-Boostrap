@@ -28,18 +28,25 @@ body {
 
 }
 
+@font-face {
+    font-family: "IntroRust-BaseLine";
+    src: url("../fonts/IntroRust-BaseLine.otf");
+}
+
 .cart-text {
     font-size: 2vw;
+    font-family: "IntroRust-BaseLine";
 }
 
 .card-subtitle {
     font-size: 1.5vw;
+    font-family: "IntroRust-BaseLine";
 }
 
 
 .title-card {
     color: #555555;
-    font-family: "halant";
+    font-family: "IntroRust-BaseLine";
     margin-bottom: 0;
     font-size: 2vw;
 }
