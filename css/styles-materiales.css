@@ -14,7 +14,7 @@ body {
 }
 @font-face{
     font-family: "cabin-medium";
-    src:url(../fonts/CabinSketch-Regular.ttf) ;
+    src:url(../fonts/Cabin\ Sketch/CabinSketch-Regular.ttf) ;
 }
 @font-face{
     font-family: "monserrat-bold";
@@ -26,7 +26,8 @@ body {
 .titulo-mate1{
     font-family:"cabin-medium";
     color:grey;
-    font-size: 4em;
+    text-align: center;
+    font-size: 3em;
     padding: 0,5em;
  
 }
@@ -34,18 +35,20 @@ body {
 .titulo-mate2{
      font-family:"montserrat-medium" ;
      color:grey;
+     text-align: center;
      font-size: 2,5 em;
      padding: 0,5em;
 }
  
 .titulo-0{
-     font-family:"montserrat-bold" ;
-     background-color: #a7ffeb;
+     font-family:"monserrat-bold" ;
+     color:gray;
+     letter-spacing: 1em;
  
      text-align: center;
      padding-top: 2em;
      padding-bottom: 1em;
-    
+      
 }
 
 .titulo-pri{
@@ -68,95 +71,24 @@ body {
 }
 
 
-
 /* --------- CONTENEDORES --------- */
+.div-titulo{
+    background-color: #a7ffeb;
+}
+
+
 .mate-primero{
     background-color:#dbffff ;
-    padding: 1em;
-    
+    padding: 2em;
+    text-align: justify;  
 }
 .mate-segundo{
     background-color:#ffffff;
-    padding: 1em;
+    padding: 2em;
+    text-align: justify;  
 }
-/* --------- Navbar --------- */
-.navbar-color{
-    background-color:  #75ccb9;
 
-}
-    
-   
-
-/* --------- FOOTER--------- */
-.footer-basic {
-    padding: 40px 0;
-    background-color:#75ccb9;
-    color:#494949;
-  
-  
-}
-  
-.footer-basic ul {
-  
-    font-family: "Montserrat";
-    font-size: 1.5vw;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-    font-weight: 800;
-    font-style: italic;
-    line-height: 1.6;
-    margin-bottom: 0;
-}
-  
-.footer-basic li {
-  
-    background-color: inherit;
-    padding: 0 10px;
-}
-  
-.footer-basic ul a {
-    color: inherit;
-    text-decoration: none;
-    opacity: 0.8;
-}
-  
-.footer-basic ul a:hover {
-    opacity: 1;
-}
-  
-.footer-basic .social {
-    text-align: center;
-    padding-bottom: 25px;
-}
-  
-.footer-basic .social>a {
-    font-size: 1.5vw;
-    width: 1.2em;
-    height: 1.2em;
-    line-height: 40px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    border: 1px solid #ffe57f;
-    margin: 0 0.5em;
-    color: inherit;
-    opacity: 0.75;
-  
-}
-  
-.footer-basic .social>a:hover {
-  
-    opacity: 0.9;
-}
-  
-.footer-basic .copyright {
-  
-    margin-top: 15px;
-    font-weight: 800;
-    font-style: italic;
-    text-align: center;
-    font-size: 1vw;
-    color: #494949;
-    margin-bottom: 0;
+.img-text{
+    vertical-align: middle;
+    padding-top: 1em;
 }
