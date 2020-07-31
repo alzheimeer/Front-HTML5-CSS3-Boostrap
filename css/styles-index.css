@@ -49,18 +49,19 @@
 }
 
 #parallax {
-        background-image: url("../images/paralax.jpg");
+        background-image: url("../images/index1.jpg");
         height: 50vw;
         margin-bottom: 50px;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        display: inline-block;
 }
 
 
 #imgbanner {
-        background-image: url("../images/hero.jpg");
+        background-image: url("../images/index2.jpg");
         height: 50vw;
         margin-bottom: 50px;
         background-attachment: fixed;
@@ -83,6 +84,10 @@
                 font-size: 30px;
         }
 
+        #parallax {
+                background-image: url("../images/index1-280.jpg");
+                height: 100vw;
+        }
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
@@ -106,6 +111,11 @@
 
         .fontNavbar {
                 font-size: 2em;
+        }
+
+        #parallax {
+                background-image: url("../images/index1-280.jpg");
+                height: 100vw;
         }
 }
 
