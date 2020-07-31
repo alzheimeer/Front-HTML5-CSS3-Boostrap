@@ -1,3 +1,13 @@
+@font-face {
+
+        font-family: "Montserrat";
+        src: url("../fonts/Montserrat-Regular.ttf");
+}
+@font-face{
+    font-family: "cabin-medium";
+    src:url(../fonts/Cabin\ Sketch/CabinSketch-Regular.ttf) ;
+}
+
 .jumbotron {
 background-position: center;
   background-repeat: no-repeat;
@@ -8,6 +18,9 @@ background-position: center;
   text-align: center;
   padding-top: 30rem;
   padding-bottom: 20rem;
+}
+.jumbotron > h1{
+  font-family:"cabin-medium"; ;
 }
 .division {
   margin: 5rem 0;
@@ -20,23 +33,17 @@ background-position: center;
     z-index: 2;
     border-radius: 10px;
 }
- p
- {
+.section-header > h2{
+ font-family: "cabin-medium";
+ background-color: #a7ffeb;
+}
+ p{
+   font-family:"Montserrat";
   font-size: 18px;
   opacity: 1;
 }
 .list-group-item{
   font-size: 18px;
-}
-#services .card {
-    width: 100% !important;
-    margin-bottom: 30px;
-    border-radius: 0px;
-    border: none;
-    transition: 0.4s;
-}
-.card-img-top{
-  width: 100%;
 }
 #informacion .cta-btn {
     font-family: "Montserrat", sans-serif;
@@ -50,4 +57,37 @@ background-position: center;
     margin: 10px;
     border: 3px solid #a7ffeb;;
     color: black;
+}
+.about-intro .divider {
+    display: block;
+    margin: 20px 0px;
+    width: 400px;
+    height: 2px;
+    background-color:#a7ffeb;
+  }
+.cierre{
+  font-family: "cabin-medium";
+  background-color:  #a7ffeb;
+  font-size: 40px;
+}
+p.mb4 {
+    display: block;
+}
+@media (min-width: 487px){
+.container {
+    max-width: 750px;
+}
+@media (min-width: 768px){
+.col-md-6 {
+    max-width: 50%;
+}
+@media (min-width: 992px){
+  .col-lg-6 {
+    max-width: 50%;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+.col-md-4{
+  width: 33.3%;
+}
 }

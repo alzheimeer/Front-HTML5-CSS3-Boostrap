@@ -3,6 +3,10 @@
         font-family: "Montserrat";
         src: url("../fonts/Montserrat-Regular.ttf");
 }
+@font-face{
+    font-family: "cabin-medium";
+    src:url(../fonts/Cabin\ Sketch/CabinSketch-Regular.ttf) ;
+}
 .carousel-inner{
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,16 +17,13 @@
     padding-bottom: 5em;
 }
 .carousel-caption {
-  font-family: "Montserrat";
+  font-family: "cabin-medium";
   font-weight: 800;
-
+  position: absolute;
+  right: 15%;
+  left: 15%;
   bottom: 3rem;
   z-index: 10;
-}
-.carousel-caption > h1{
-font-size: 60px;
-letter-spacing: 2px;
-opacity: 1;
 }
 .carousel-caption > p{
   font-size: 18px;
@@ -39,12 +40,26 @@ opacity: 1;
   min-width: 100%;
   height: 32rem;
 }
+p{
+   font-family:"Montserrat";
+  font-size: 18px;
+  opacity: 1;
+}
+
 .noticias .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
+  font-size: 16px;
+  font-weight: 600;
 }
 .noticias h2 {
   font-weight: 400;
+}
+.btn{
+  background-color: #a7ffeb;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
 }
 .noticias .col-md-5 p {
   margin-right: .75rem;
@@ -64,18 +79,20 @@ opacity: 1;
   border-radius: 8px;
 }
 @media (min-width: 768px) {
+  .carousel-caption h1{
+    font-size: 60px;
+  }
   .carousel-caption p {
     font-size: 1.25rem;
     line-height: 1.4;
   }
-
   .noticia-titulo {
     font-size: 50px;
   }
 }
 
 @media (min-width: 992px) {
-  .featurette-heading{
+  .noticia-titulo{
     margin-top: 7rem;
   }
 }
