@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.formulario {
+  width: 500px;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0);
+  position: relative;
+  border-radius: 30px;
+}
+
+.formulario_titulo {
+  text-align: center;
+  margin-top: 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.formulario_input,
+.formulario_label,
+.formulario_submit {
+  display: block;
+  width: 100%;
+  font-size: 1.3em;
+  border-radius: 10px;
+}
+
+.formulario_input {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.87);
+  margin-bottom: 40px;
+}
+
+.formulario_input:focus {
+  outline: 1px solid rgba(0, 0, 0, 0.849);
+}
+
+.formulario_input:focus+.formulario_label {
+  margin-top: -135px;
+}
+
+.formulario_label {
+  padding-left: 15px;
+  position: absolute;
+  margin-top: -85px;
+  z-index: -20;
+  color: rgba(0, 0, 0, 0.822);
+  transition: all 0.2s;
+}
+
+.formulario_submit {
+  background: rgba(0, 0, 0, 0.856);
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+
+.fijar {
+  margin-top: -135px;
+}
+
+.warnings {
+
+  width: 500px;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+  position: relative;
+  border-radius: 30px;
+  text-align: center;
+  color: red;
+}
+
+body {
+  background-image: url("../images/fondo-contactenos.jpg");
+  height: 50vw;
+  margin-bottom: 50px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+
+}
