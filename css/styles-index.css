@@ -9,6 +9,14 @@
         src: url("../fonts/IntroRust-BaseLine.otf");
 }
 
+.btnsuscribete {
+
+        background-color: #cab350;
+        color: black;
+        font-weight: 800;
+        font-variant: small-caps;
+}
+
 .title-ph2 {
         font-family: "IntroRust-BaseLine";
         font-style: italic;
