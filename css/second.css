@@ -1,8 +1,4 @@
-html, body {
-    height: 100%;
-    width: 100%;
-    margin:0;
-}
+
 @font-face {
         font-family: "Montserrat";
         src: url("../fonts/Montserrat-Regular.ttf");
@@ -47,6 +43,15 @@ background-position: center;
   font-size: 18px;
   opacity: 1;
 }
+h3{
+ font-family: "cabin-medium";
+}
+.btn{
+  background-color:#ffe57f;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
 .list-group-item{
   font-size: 18px;
 }
@@ -60,7 +65,7 @@ background-position: center;
     border-radius: 3px;
     transition: 0.5s;
     margin: 10px;
-    border: 3px solid #a7ffeb;;
+    border: 3px solid#ffe57f;
     color: black;
 }
 .about-intro .divider {
@@ -70,9 +75,12 @@ background-position: center;
     height: 2px;
     background-color:#a7ffeb;
   }
+  .titulo{
+    font-family: "cabin-medium";
+  }
 .cierre{
   font-family: "cabin-medium";
-  background-color:  #a7ffeb;
+  background-color: #ffe57f;
   font-size: 40px;
 }
 .libros-section {
