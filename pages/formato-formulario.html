@@ -117,42 +117,14 @@
         <p class="texto-formulario"> 
             ¡Queremos escuchar de ti! Por lo tanto, si tiene alguna pregunta o consulta sobre nuestros productos, o simplemente desea enviarnos una línea, complete el formulario lo más detallado posible para que sepamos mejor cómo atenderlo.</p>
           <!-- AQUI NUEVO FORMULARIO-->
-            
-    <div class="row">
-
-      <form action="" class="formulario" id="formulario">
-
-          <h1 class="formulario_titulo">Suscribete</h1>
-
-          <input type="text" name="nombre" class="formulario_input" id="nombre">
-          <label for="" class="formulario_label">Nombre</label>
-
-          <input type="email" name="correo" class="formulario_input" id="correo">
-          <label for="" class="formulario_label">Correo</label>
-
-          <input type="number" name="telefono" class="formulario_input" id="telefono">
-          <label for="" class="formulario_label">Telefono</label>
-
-          <select name="sector" class="formulario_input" id="sector" onchange="sectorChange()">
-              <option value="0"></option>
-              <option value="1">COMPRAS</option>
-              <option value="2">DISTRIBUCION</option>
-              <option value="3">TALLERES</option>
-              <option value="4">INFO MAYORISTA</option>
-          </select>
-          <label for="" class="formulario_label" id="sector">Intereses</label>
-
-          <input type="submit" class='formulario_submit'>
-
-          <div id="error" class="warnings" id="warnings">
-
-
-          </div>
-
-
-      </form>
-
-  </div>
+          <div class="formulario-angie">
+            <form method="post">
+              <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
+              <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email"><small class="form-text text-danger">Please enter a correct email address.</small></div>
+              <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
+              <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
+            </form>
+            </div>
             <!-- FIN ORMULARIO-->
   </div>
 
