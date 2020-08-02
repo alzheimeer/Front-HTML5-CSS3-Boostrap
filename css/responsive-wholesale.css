@@ -1,0 +1,263 @@
+ @media (min-width: 280px) and (max-width: 399px) {
+
+     .parallax {
+         /* Set a specific height */
+
+         height: 140px;
+
+     }
+
+     .cart-text {
+         font-size: 20px;
+         font-family: "IntroRust-BaseLine";
+     }
+
+     .card-subtitle {
+         font-size: 12px;
+         font-family: "IntroRust-BaseLine";
+         padding-top: 0.5em;
+     }
+
+     .title-card {
+         color: #555555;
+         font-family: "IntroRust-BaseLine";
+         margin-bottom: 0;
+         font-size: 20px;
+     }
+
+     .subtitle-card {
+         font-size: 15px;
+         font-family: "IntroRust-BaseLine";
+         margin-bottom: 1rem;
+         color: #ada69e;
+         line-height: 1.1;
+     }
+
+ }
+
+ /* X-Small devices (portrait phones, less than 576px) */
+ @media (min-width: 400px) and (max-width: 575.98px) {
+     .parallax {
+         /* Set a specific height */
+
+         height: 140px;
+
+     }
+
+     .cart-text {
+         font-size: 20px;
+         font-family: "IntroRust-BaseLine";
+     }
+
+     .card-subtitle {
+         font-size: 20px;
+         font-family: "IntroRust-BaseLine";
+     }
+
+
+     .title-card {
+         color: #555555;
+         font-family: "IntroRust-BaseLine";
+         margin-bottom: 0;
+         font-size: 20px;
+     }
+
+     .subtitle-card {
+         font-size: 20px;
+         font-family: "IntroRust-BaseLine";
+         margin-bottom: 1rem;
+         color: #ada69e;
+         line-height: 1.1;
+     }
+
+ }
+
+
+ /* Small devices (landscape phones, less than 768px) */
+ @media (min-width: 574px) and (max-width: 767.98px) {
+     .parallax {
+         /* Set a specific height */
+
+         height: 140px;
+
+     }
+
+     .cart-text {
+         font-size: 13px;
+         font-family: "IntroRust-BaseLine";
+     }
+
+     .card-subtitle {
+         font-size: 10px;
+         font-family: "IntroRust-BaseLine";
+         padding-top: 0.5em;
+     }
+
+
+     .title-card {
+         color: #555555;
+         font-family: "IntroRust-BaseLine";
+         margin-bottom: 0;
+         font-size: 13px;
+     }
+
+     .subtitle-card {
+         font-size: 13px;
+         font-family: "IntroRust-BaseLine";
+         margin-bottom: 1rem;
+         color: #ada69e;
+         line-height: 1.1;
+     }
+
+ }
+
+
+ /* Medium devices (tablets, less than 992px) */
+ @media (min-width: 766px) and (max-width: 991.98px) {
+     .parallax {
+         /* Set a specific height */
+
+         height: 140px;
+
+     }
+
+     .cart-text {
+         font-size: 20px;
+         font-family: "IntroRust-BaseLine";
+     }
+
+     .card-subtitle {
+         font-size: 20px;
+         font-family: "IntroRust-BaseLine";
+
+     }
+
+
+     .title-card {
+         color: #555555;
+         font-family: "IntroRust-BaseLine";
+         margin-bottom: 0;
+         font-size: 20px;
+     }
+
+     .subtitle-card {
+         font-size: 20px;
+         font-family: "IntroRust-BaseLine";
+         margin-bottom: 1rem;
+         color: #ada69e;
+         line-height: 1.1;
+     }
+
+ }
+
+
+ /* Large devices (desktops, less than 1200px) */
+ @media (min-width: 990px) and (max-width: 1199.98px) {
+     .parallax {
+         /* Set a specific height */
+
+         height: 140px;
+
+     }
+
+     .cart-text {
+         font-size: 18px;
+         font-family: "IntroRust-BaseLine";
+     }
+
+     .card-subtitle {
+         font-size: 18px;
+         font-family: "IntroRust-BaseLine";
+     }
+
+
+     .title-card {
+         color: #555555;
+         font-family: "IntroRust-BaseLine";
+         margin-bottom: 0;
+         font-size: 18px;
+     }
+
+     .subtitle-card {
+         font-size: 18px;
+         font-family: "IntroRust-BaseLine";
+         margin-bottom: 1rem;
+         color: #ada69e;
+         line-height: 1.1;
+     }
+
+ }
+
+
+ /* X-Large devices (large desktops, less than 1400px) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) {
+     .parallax {
+         /* Set a specific height */
+
+         height: 300px;
+
+     }
+
+     .cart-text {
+         font-size: 25px;
+         font-family: "IntroRust-BaseLine";
+     }
+
+     .card-subtitle {
+         font-size: 25px;
+         font-family: "IntroRust-BaseLine";
+     }
+
+
+     .title-card {
+         color: #555555;
+         font-family: "IntroRust-BaseLine";
+         margin-bottom: 0;
+         font-size: 25px;
+     }
+
+     .subtitle-card {
+         font-size: 25px;
+         font-family: "IntroRust-BaseLine";
+         margin-bottom: 1rem;
+         color: #ada69e;
+         line-height: 1.1;
+     }
+
+ }
+
+ @media (min-width: 1400px) {
+     .parallax {
+         /* Set a specific height */
+
+         height: 300px;
+
+     }
+
+     .cart-text {
+         font-size: 30px;
+         font-family: "IntroRust-BaseLine";
+     }
+
+     .card-subtitle {
+         font-size: 30px;
+         font-family: "IntroRust-BaseLine";
+     }
+
+
+     .title-card {
+         color: #555555;
+         font-family: "IntroRust-BaseLine";
+         margin-bottom: 0;
+         font-size: 30px;
+     }
+
+     .subtitle-card {
+         font-size: 30px;
+         font-family: "IntroRust-BaseLine";
+         margin-bottom: 1rem;
+         color: #ada69e;
+         line-height: 1.1;
+     }
+
+ }
