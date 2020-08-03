@@ -1,5 +1,51 @@
 font-size: 3em;
     padding: 0,5em;
+
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+      
+.titulo-mate1{
+    font-size: 2em;
+    padding: 0,2em;  
+}
+ 
+.titulo-mate2{
+     font-size: 1em;
+     padding: 0,2em;
+}
+.titulo-0{
+    padding-top: 1em;
+    padding-bottom:0,5em;
+    letter-spacing: 14px;
+}
+   
+.titulo-pri{
+    font-size: 2em;
+}
+
+/* --------- TEXTO--------- */
+.mate-text{
+    font-size: 0,1em;
+    padding: 1em;
+    padding-top: 0,5em;
+}
+/* --------- CONTENEDORES --------- */
+.mate-primero{
+    padding: 1em;   
+}
+.mate-segundo{
+    padding: 1em;   
+}
+
+.img-text{
+    padding-top: 0,5em;
+    width: 100%; 
+}
+    
+}
+   
+
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     
@@ -9,7 +55,7 @@ font-size: 3em;
 }
  
 .titulo-mate2{
-     font-size: 2,5 em;
+     font-size: 2,5em;
      padding: 0,5em;
 }
 .titulo-0{
@@ -52,7 +98,7 @@ font-size: 3em;
     }
      
     .titulo-mate2{
-         font-size: 2,5 em;
+         font-size: 2,5em;
          padding: 0,5em;
     }
     .titulo-0{
@@ -98,7 +144,7 @@ font-size: 3em;
     }
      
     .titulo-mate2{
-         font-size: 2,5 em;
+         font-size: 2,5em;
          padding: 0,5em;
     }
     .titulo-0{
@@ -143,7 +189,7 @@ font-size: 3em;
     }
      
     .titulo-mate2{
-         font-size: 2,5 em;
+         font-size: 2,5em;
          padding: 0,5em;
     }
     .titulo-0{
@@ -177,6 +223,22 @@ font-size: 3em;
     }
            
 }
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .titulo-parallax {
+            font-size: 20px;
+    }
+
+    .fontNombrePage {
+            font-size: 5em;
+    }
+
+    .fontNavbar {
+            font-size: 2em;
+    }
+}
+
 
 
 /* X-Large devices (large desktops, less than 1400px) */

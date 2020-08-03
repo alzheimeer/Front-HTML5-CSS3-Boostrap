@@ -79,6 +79,9 @@
               <!-- ICONO COMPRAS-->
               <li class="nav-item d-none d-xs-block d-md-block" role="presentation">
                 <a class="nav-link" href="#"><i class="fa fa-shopping-bag"></i></a></li>
+
+              <li class="nav-item" role="presentation"><a class="nav-link" id="log" href="#"></a>
+              </li>
             </ul>
           </div>
         </div>
@@ -118,11 +121,12 @@
           </div>
           <form class="form-inline" method="post">
             <div class="form-group">
-              <input class="form-control text-normal" type="email" name="email" placeholder="Ingrese Su Email">
+              <input class="form-control text-normal" pattern="\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b" type="email" name="email"
+                placeholder="Ingrese Su Email">
             </div>
 
             <div class="form-group">
-              <button class="btn-lg btn-primary" type="submit">Suscribete </button>
+              <button class="btn-lg btnsuscribete" type="submit">Suscribete </button>
             </div>
           </form>
         </div>
@@ -144,7 +148,9 @@
               croché o ganchillo. Para nosotros el crochet o ganchillo es el origami de las lanas.
             </p>
           </div>
-          <button type="button" class="btn-lg btn-info">Leer Mas</button>
+          <button type="button" onclick="window.location.href='https://es.wikipedia.org/wiki/Ganchillo'"
+            class="btn-lg btn-info">Leer
+            Mas</button>
         </div>
       </div>
     </div>
@@ -182,7 +188,8 @@
               Estos planos describen paso a paso que puntadas necesarias para tejer cada parte de la prenda.
             </p>
           </div>
-          <button type="button" class="btn-lg  btn-secondary ">Leer Mas</button>
+          <button type="button" onclick="window.location.href='https://es.wikipedia.org/wiki/Amigurumi'"
+            class="btn-lg  btn-secondary ">Leer Mas</button>
         </div>
       </div>
     </div>
@@ -197,7 +204,9 @@
 
             </p>
           </div>
-          <button type="button" class="btn-lg btn-info">Leer Mas</button>
+          <button type="button"
+            onclick="window.location.href='https://es.wikipedia.org/wiki/Amigurumi#Materiales_empleados'"
+            class="btn-lg btn-info">Leer Mas</button>
         </div>
       </div>
     </div>
@@ -221,7 +230,8 @@
               cojines y me podría tirar así todo el día. Absolutamente casí todo se puede replicar usando esta ténica.
             </p>
           </div>
-          <button type="button" class="btn-lg  btn-secondary ">Leer Mas</button>
+          <button type="button" onclick="window.location.href='https://www.google.com/search?q=productos%20crochet'"
+            class="btn-lg  btn-secondary ">Leer Mas</button>
         </div>
       </div>
     </div>
@@ -271,10 +281,11 @@
         <form action="#">
           <h1>Crear Cuenta</h1>
 
-          <input type="text" placeholder="Nombre" />
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Contraseña" />
-          <button>Continuar</button>
+          <input type="text" minlength="5" placeholder="Nombre" id="nombretxt" />
+          <input type="email" pattern="\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b" placeholder="Email" id="emailtxt" />
+          <input type="password" minlength="8" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+            placeholder="Contraseña" id="passwordtxt" />
+          <button id="registrar">Continuar</button>
         </form>
       </div>
 
@@ -282,12 +293,16 @@
         <form action="#">
           <h1>¡Hola!</h1>
           <p> Ingresa tu e‑mail y contraseña</p>
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Contraseña" />
+          <input type="email" pattern="\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b" placeholder="Email" id="ee1txt" />
+          <input type="password" placeholder="Contraseña" id="pp1txt" />
           <a href="#">Olvidaste tu contraseña?</a>
-          <button>Continuar</button>
+          <button id="entrar">Continuar</button>
         </form>
       </div>
+
+
+
+      <!--BOTONES DE CAMBIO DE INTERFAZ DE USUARIO-->
       <div class="overlay-container">
         <div class="overlay">
           <div class="overlay-panel overlay-left">
@@ -326,20 +341,17 @@
   <!-- Popper.js first, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
+  </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
+  </script>
 
   <!-- Navbar -->
   <script src="./js/Navbar.js"></script>
-
   <script src="./js/jquery.min.js"></script>
-
-
   <script src="./js/animacionletras.js"></script>
   <script src="./js/modal.js"></script>
 
