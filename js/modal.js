@@ -60,5 +60,5 @@ entrarButton.addEventListener('click', () => {
 	/*limpiamos campos*/
 	document.getElementById("ee1txt").value = "";
 	document.getElementById("pp1txt").value = "";
-
+	document.getElementById("log").innerHTML = persons.Nombre;
 });
