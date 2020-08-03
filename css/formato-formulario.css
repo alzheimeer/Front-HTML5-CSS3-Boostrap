@@ -21,7 +21,7 @@ body {
     src: url(../fonts/Montserrat-Bold.ttf)
 }
 main{
-    background-color:white;
+    background-color:#dbffff;
     padding-bottom: 2em;
 }
 /* --------- ENCABEZADO--------- */
@@ -95,7 +95,7 @@ main{
     width: 80%;
     position: relative;
     margin-top: -9em;
-    background-color: white;
+    background-color:white;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -131,6 +131,9 @@ main{
     text-align: center;
 }
 
+/*-------- formulario angie----*/
+
+  
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
