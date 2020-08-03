@@ -87,6 +87,8 @@ color: black;
 }
 
 .video {
+  height: auto;
+  margin: 10px;
   align-items: center;
   justify-content: center;
   text-align: center;
