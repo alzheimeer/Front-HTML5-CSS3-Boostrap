@@ -23,6 +23,7 @@
     box-shadow: 0 0 40px 40px #0000005e inset, 0 0 0 0 #48f014;
     -webkit-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out;
+    z-index: 1;
 }
 
 .chat:hover {
