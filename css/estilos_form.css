@@ -85,16 +85,16 @@ body {
   color: red;
 
 
-body {
-  background-image: url("../images/fondo-contactenos.jpg");
-  height: 50vw;
-  margin-bottom: 50px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  body {
+    background-image: url("../images/fondo-contactenos.jpg");
+    height: 50vw;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 
 
 
-}
+  }
