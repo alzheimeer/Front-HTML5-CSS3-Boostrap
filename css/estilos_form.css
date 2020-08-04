@@ -1,4 +1,5 @@
 * {
+
   box-sizing: border-box;
 }
 
@@ -7,7 +8,10 @@ body {
   font-family: sans-serif;
 }
 
+
+
 .formulario {
+  color: black;
   width: 500px;
   max-width: 100%;
   margin: auto;
@@ -38,6 +42,7 @@ body {
   background: rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.87);
   margin-bottom: 40px;
+  color: black;
 }
 
 .formulario_input:focus {
@@ -83,18 +88,15 @@ body {
   border-radius: 30px;
   text-align: center;
   color: red;
+}
 
+body {
+  background-image: url("../images/fondo-contactenos.jpg");
+  height: 50vw;
+  margin-bottom: 50px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  body {
-    background-image: url("../images/fondo-contactenos.jpg");
-    height: 50vw;
-    margin-bottom: 50px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-
-
-
-  }
+}
